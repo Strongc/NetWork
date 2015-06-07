@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mongoose", "mongoose\mongoose.vcxproj", "{13F650EB-C465-4B4D-8EBD-037ECD00C27D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestWebServer", "TestWebServer\TestWebServer.vcxproj", "{60536EEE-3D6F-4287-94B8-451278185B19}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sockets", "Sockets\Sockets.vcxproj", "{0FD030D6-AADC-43A5-B9B1-973C6A9E904D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestSocketWebServer", "TestSocketWebServer\TestSocketWebServer.vcxproj", "{DB380B06-174D-49AC-9130-6998A7AD5547}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WebServerQt", "WebServerQt\WebServerQt.vcxproj", "{22860BE2-0E33-44C4-84DD-2E1E458F5C49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13F650EB-C465-4B4D-8EBD-037ECD00C27D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{13F650EB-C465-4B4D-8EBD-037ECD00C27D}.Debug|Win32.Build.0 = Debug|Win32
+		{13F650EB-C465-4B4D-8EBD-037ECD00C27D}.Release|Win32.ActiveCfg = Release|Win32
+		{13F650EB-C465-4B4D-8EBD-037ECD00C27D}.Release|Win32.Build.0 = Release|Win32
+		{60536EEE-3D6F-4287-94B8-451278185B19}.Debug|Win32.ActiveCfg = Debug|Win32
+		{60536EEE-3D6F-4287-94B8-451278185B19}.Debug|Win32.Build.0 = Debug|Win32
+		{60536EEE-3D6F-4287-94B8-451278185B19}.Release|Win32.ActiveCfg = Release|Win32
+		{60536EEE-3D6F-4287-94B8-451278185B19}.Release|Win32.Build.0 = Release|Win32
+		{0FD030D6-AADC-43A5-B9B1-973C6A9E904D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0FD030D6-AADC-43A5-B9B1-973C6A9E904D}.Debug|Win32.Build.0 = Debug|Win32
+		{0FD030D6-AADC-43A5-B9B1-973C6A9E904D}.Release|Win32.ActiveCfg = Release|Win32
+		{0FD030D6-AADC-43A5-B9B1-973C6A9E904D}.Release|Win32.Build.0 = Release|Win32
+		{DB380B06-174D-49AC-9130-6998A7AD5547}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DB380B06-174D-49AC-9130-6998A7AD5547}.Debug|Win32.Build.0 = Debug|Win32
+		{DB380B06-174D-49AC-9130-6998A7AD5547}.Release|Win32.ActiveCfg = Release|Win32
+		{DB380B06-174D-49AC-9130-6998A7AD5547}.Release|Win32.Build.0 = Release|Win32
+		{22860BE2-0E33-44C4-84DD-2E1E458F5C49}.Debug|Win32.ActiveCfg = Debug|Win32
+		{22860BE2-0E33-44C4-84DD-2E1E458F5C49}.Debug|Win32.Build.0 = Debug|Win32
+		{22860BE2-0E33-44C4-84DD-2E1E458F5C49}.Release|Win32.ActiveCfg = Release|Win32
+		{22860BE2-0E33-44C4-84DD-2E1E458F5C49}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
