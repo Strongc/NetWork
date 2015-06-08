@@ -1,4 +1,5 @@
 <RCC>
-    <qresource prefix="BolgsDownload">
+    <qresource prefix="/BolgsDownload">
+        <file alias="touxiang">Resources/touxiang.jpg</file>
     </qresource>
 </RCC>
