@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libsqlite", "libsqlite\libsqlite.vcxproj", "{1E561E6B-AE4F-45C6-B340-D36BD87E78E0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testSQLiteDemo", "testSQLiteDemo\testSQLiteDemo.vcxproj", "{ECE6A0F0-52D4-41B2-AB2A-C6AFDE1BD56B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testSQLite3DemoExt", "testSQLite3DemoExt\testSQLite3DemoExt.vcxproj", "{4D4FBF4C-CCCD-458C-84A1-C6F61C2342CC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testSQLite3DemoMT", "testSQLite3DemoMT\testSQLite3DemoMT.vcxproj", "{E7A15729-06D3-4147-B64E-D7E5B15EA9F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E561E6B-AE4F-45C6-B340-D36BD87E78E0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1E561E6B-AE4F-45C6-B340-D36BD87E78E0}.Debug|Win32.Build.0 = Debug|Win32
+		{1E561E6B-AE4F-45C6-B340-D36BD87E78E0}.Release|Win32.ActiveCfg = Release|Win32
+		{1E561E6B-AE4F-45C6-B340-D36BD87E78E0}.Release|Win32.Build.0 = Release|Win32
+		{ECE6A0F0-52D4-41B2-AB2A-C6AFDE1BD56B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ECE6A0F0-52D4-41B2-AB2A-C6AFDE1BD56B}.Debug|Win32.Build.0 = Debug|Win32
+		{ECE6A0F0-52D4-41B2-AB2A-C6AFDE1BD56B}.Release|Win32.ActiveCfg = Release|Win32
+		{ECE6A0F0-52D4-41B2-AB2A-C6AFDE1BD56B}.Release|Win32.Build.0 = Release|Win32
+		{4D4FBF4C-CCCD-458C-84A1-C6F61C2342CC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4D4FBF4C-CCCD-458C-84A1-C6F61C2342CC}.Debug|Win32.Build.0 = Debug|Win32
+		{4D4FBF4C-CCCD-458C-84A1-C6F61C2342CC}.Release|Win32.ActiveCfg = Release|Win32
+		{4D4FBF4C-CCCD-458C-84A1-C6F61C2342CC}.Release|Win32.Build.0 = Release|Win32
+		{E7A15729-06D3-4147-B64E-D7E5B15EA9F1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E7A15729-06D3-4147-B64E-D7E5B15EA9F1}.Debug|Win32.Build.0 = Debug|Win32
+		{E7A15729-06D3-4147-B64E-D7E5B15EA9F1}.Release|Win32.ActiveCfg = Release|Win32
+		{E7A15729-06D3-4147-B64E-D7E5B15EA9F1}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
