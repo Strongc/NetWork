@@ -1,8 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'webserverqt.h'
 **
-** Created: Sun Jun 7 19:25:03 2015
-**      by: The Qt Meta Object Compiler version 62 (Qt 4.7.1)
+** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.6)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -11,8 +10,8 @@
 #include "../../webserverqt.h"
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'webserverqt.h' doesn't include <QObject>."
-#elif Q_MOC_OUTPUT_REVISION != 62
-#error "This file was generated using the moc from 4.7.1. It"
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.6. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -21,7 +20,7 @@ QT_BEGIN_MOC_NAMESPACE
 static const uint qt_meta_data_WebServerQt[] = {
 
  // content:
-       5,       // revision
+       6,       // revision
        0,       // classname
        0,    0, // classinfo
        5,   14, // methods
@@ -48,9 +47,29 @@ static const char qt_meta_stringdata_WebServerQt[] = {
     "slot_packmenuAcquire()\0"
 };
 
+void WebServerQt::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        WebServerQt *_t = static_cast<WebServerQt *>(_o);
+        switch (_id) {
+        case 0: _t->slot_closetUI(); break;
+        case 1: _t->slot_startWebServer(); break;
+        case 2: _t->slot_colseWebServer(); break;
+        case 3: _t->slot_threadReturnMessage((*reinterpret_cast< QString(*)>(_a[1]))); break;
+        case 4: _t->slot_packmenuAcquire(); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData WebServerQt::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
 const QMetaObject WebServerQt::staticMetaObject = {
     { &QWidget::staticMetaObject, qt_meta_stringdata_WebServerQt,
-      qt_meta_data_WebServerQt, 0 }
+      qt_meta_data_WebServerQt, &staticMetaObjectExtraData }
 };
 
 #ifdef Q_NO_DATA_RELOCATION
@@ -76,14 +95,8 @@ int WebServerQt::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        switch (_id) {
-        case 0: slot_closetUI(); break;
-        case 1: slot_startWebServer(); break;
-        case 2: slot_colseWebServer(); break;
-        case 3: slot_threadReturnMessage((*reinterpret_cast< QString(*)>(_a[1]))); break;
-        case 4: slot_packmenuAcquire(); break;
-        default: ;
-        }
+        if (_id < 5)
+            qt_static_metacall(this, _c, _id, _a);
         _id -= 5;
     }
     return _id;
